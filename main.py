@@ -5,15 +5,15 @@ import time
 import numpy as np
 
 ##########################
-wCam, hCam = 640, 480
-frameR = 100 # Frame Reduction
-smoothening = 7
+wCam, hCam = 1920, 1080
+frameR = 0 # Frame Reduction
+smoothening = 2
 #########################
 pTime = 0
 plocX, plocY = 0, 0
 clocX, clocY = 0, 0
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 cap.set(3, wCam)
 cap.set(4, hCam)
 
@@ -52,11 +52,14 @@ while True:
             autopy.mouse.move(wScr - clocX, clocY)
             cv2.circle(img, (x1, y1), 15, (255, 0, 255), cv2.FILLED)
             plocX, plocY = clocX, clocY
+            
+            
 
         # 8. All fingers down
         if fingers[1] == 0:
             cv2.circle(img, (x1, y1), 15, (255, 0, 255), cv2.FILLED)
             autopy.mouse.click()
+            print("Clicked!")
             time.sleep(0.5)
         
     # 12. Display
