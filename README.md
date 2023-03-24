@@ -1,5 +1,10 @@
 # VirtualMouse
 
+## Install
+```bash
+pip install easygui webbrowser pyautogui cvzone opencv-python
+```
+
 ## Publish
 
 ### 1. Run the following command to generate the executable file and spec file
