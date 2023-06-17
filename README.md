@@ -1,3 +1,14 @@
+![Screenshoot](image.png)
+
+[![GitHub contributors](https://img.shields.io/github/contributors/TienNHM/VirtualMouse)](https://github.com/TienNHM/VirtualMouse/graphs/contributors)
+[![GitHub issues](https://img.shields.io/github/issues/TienNHM/VirtualMouse?color=red)](https://github.com/TienNHM/VirtualMouse/issues)
+![GitHub top language](https://img.shields.io/github/languages/top/TienNHM/VirtualMouse?color=cyan)
+![GitHub repo size](https://img.shields.io/github/repo-size/TienNHM/VirtualMouse)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/TienNHM/VirtualMouse)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/TienNHM/VirtualMouse?color=g)](https://github.com/TienNHM/VirtualMouse/graphs/code-frequency)
+![GitHub last commit](https://img.shields.io/github/last-commit/TienNHM/VirtualMouse?color=yellow)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/TienNHM/VirtualMouse)](https://github.com/TienNHM/VirtualMouse/releases)
+
 # VirtualMouse
 
 ## Install
